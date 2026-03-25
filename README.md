@@ -7,6 +7,7 @@ It is an AI-powered system that automatically classifies documents, extracts key
 The goal was to simplify document management by leveraging AI/ML and NLP techniques to organize, search, and secure documents efficiently.
 
 ✨ Features
+
 📂 Automatic Document Classification
 Categorizes documents into domains like Finance, HR, Legal, Contracts, etc.
 📝 Metadata Extraction & Summarization
