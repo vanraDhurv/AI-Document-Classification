@@ -1,0 +1,83 @@
+/* =================================
+   COMPONENT ALIGNMENT GUIDE
+   ================================= */
+
+/* This file serves as documentation for consistent component styling */
+
+/* 
+USAGE PATTERNS:
+
+1. Page Structure:
+   - .page-wrapper for main page container
+   - .page-content with .container for content wrapper
+   - .page-header for consistent header layout
+
+2. Section Layout:
+   - .section for main content sections
+   - .section-header and .section-title for section headers
+   - .glass-card for card containers
+
+3. Grid Systems:
+   - .stats-grid for statistics cards
+   - .filters-grid for filter controls
+   - .form-grid for form layouts
+
+4. Components:
+   - .table-wrapper and .data-table for tables
+   - .btn-group for button groups
+   - .badge and .alert for status indicators
+
+5. Utilities:
+   - Spacing: .p-6, .m-4, .gap-4
+   - Flex: .flex, .items-center, .justify-between
+   - Text: .text-center, .font-semibold
+
+Key Benefits:
+- Consistent spacing using design system variables
+- Perfect alignment across all screen sizes
+- Reusable component patterns
+- Professional glass-morphism design
+- Responsive grid systems
+- Consistent typography hierarchy
+*/
+
+/* Additional component-specific alignment helpers */
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-6);
+  align-items: stretch;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  align-items: end;
+  padding: var(--space-6);
+  background: var(--glass-bg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+}
+
+.document-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  justify-content: flex-end;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-12);
+  text-align: center;
+}
