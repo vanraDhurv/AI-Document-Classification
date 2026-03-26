@@ -1,21 +1,50 @@
-🚀 AI-Powered Document Classification & Intelligent Indexing System
+# 📄 AI-Powered Document Classification & Intelligent Indexing System
 
-📌 Overview
+An AI-driven system designed to automatically classify, analyze, and retrieve documents using semantic understanding instead of traditional keyword-based methods. Built to handle large volumes of unstructured data efficiently while ensuring security and role-based access control.
 
-This project was built during a 36-hour hackathon by a team of four developers.
-It is an AI-powered system that automatically classifies documents, extracts key information, and enables intelligent semantic search.
+---
 
-The goal was to simplify document management by leveraging AI/ML and NLP techniques to organize, search, and secure documents efficiently.
+## 🚀 Overview
 
-✨ Features
+Organizations deal with massive amounts of unstructured documents such as PDFs, reports, contracts, and emails. Manual tagging and keyword search are slow and error-prone.
 
-📂 Automatic Document Classification
-Categorizes documents into domains like Finance, HR, Legal, Contracts, etc.
-📝 Metadata Extraction & Summarization
-Extracts key details such as title, author, and date, and generates concise summaries.
-🔎 Semantic Search
-Allows users to search documents based on meaning rather than just keywords.
-🔐 Role-Based Access Control
-Ensures secure access so users can only view authorized documents.
-📊 Interactive Dashboard
-Upload, view, filter, and download documents through a clean UI.
+This project solves that problem by leveraging AI, NLP, and semantic search to intelligently classify, index, and retrieve documents.
+
+---
+
+## ✨ Key Features
+
+### 📂 Document Classification
+- Automatically categorizes documents into:
+  - Finance  
+  - HR  
+  - Legal  
+  - Contracts  
+  - Technical Reports  
+
+### 🧠 Metadata Extraction
+- Extracts important information:
+  - Title  
+  - Author  
+  - Date  
+  - Entities (names, organizations, amounts)
+
+### 📝 Smart Summarization
+- Uses extractive summarization
+- Generates concise summaries (top 3–5 sentences)
+
+### 🔍 Semantic Search
+- Search documents based on meaning, not just keywords
+- Uses embeddings and similarity matching for accurate results
+
+### 🔐 Security & Access Control
+- User authentication system
+- Role-based access:
+  - HR → HR documents  
+  - Finance → Finance documents  
+- Activity logging (uploads, views)
+
+### 🖥️ User-Friendly Interface
+- Upload and manage documents
+- View extracted metadata and summaries
+- Filter and search documents easily
