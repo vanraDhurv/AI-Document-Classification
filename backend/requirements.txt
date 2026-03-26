@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+sqlalchemy
+sqlmodel
+PyPDF2
+python-docx
+spacy
+sentence-transformers
+faiss-cpu
+scikit-learn
+numpy
+python-jose[cryptography]
+passlib[bcrypt]
+python-dateutil
